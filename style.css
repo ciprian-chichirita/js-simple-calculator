@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.calculator {
+  width: 360px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+  border: 1px gray solid;
+}
+
+input {
+  font-size: 2rem;
+  margin: 5px;
+  padding: 5px;
+  min-width: 80px;
+}
